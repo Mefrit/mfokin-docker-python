@@ -3,3 +3,4 @@ RUN  apk update  && apk add build-base
 COPY  ./requirements.txt ./game/requirements.txt
 WORKDIR ./game
 RUN pip3 install -r requirements.txt
+
